@@ -8,6 +8,7 @@ install:
 
 script:
   - python tec.py
+  - pytest tec.py
 
 after_success:
   - travis-after-tests-success
