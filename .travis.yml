@@ -7,7 +7,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - 
+  -
 
 after_success:
   - travis-after-tests-success
