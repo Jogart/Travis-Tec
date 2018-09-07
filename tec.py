@@ -7,4 +7,6 @@ def resultado(suma):
         print('La suma es correcta, es %s') % str(suma)
     else:
         print('La suma es igual a %s') %str(suma)
-    return suma
+
+def test_suma():
+    assert resultado(10) != 10
